@@ -48,9 +48,6 @@ check_git_clone
 #check_git_clone
 echo "done."
 
-patch ./wiringPi/devLib/Makefile < ./patchs/devLib_Makefile.patch
-patch ./wiringPi/gpio/Makefile < ./patchs/gpio_Makefile.patch
-
 echo -n "Making libWiringPi ... "
 cd ./wiringPi/wiringPi
 make clean >> ../../install.log 2>&1
