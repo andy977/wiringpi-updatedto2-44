@@ -52,7 +52,7 @@ patch ./wiringPi/devLib/Makefile < ./patchs/devLib_Makefile.patch
 patch ./wiringPi/gpio/Makefile < ./patchs/gpio_Makefile.patch
 
 echo -n "Making libWiringPi ... "
-cd ./wiringPi/
+cd ./wiringPi/wiringPi
 make clean >> ../../install.log 2>&1
 make static >> ../../install.log 2>&1
 check_make_ok "libWiringPi" 1
