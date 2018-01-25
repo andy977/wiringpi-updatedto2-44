@@ -1,5 +1,5 @@
 {
-  "name": "wiring-pi-updated",
+  "name": "wiring-pi",
   "version": "2.2.2",
   "description": "Bindings to wiringPi",
   "main": "lib/exports.js",
