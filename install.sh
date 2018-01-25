@@ -52,14 +52,14 @@ patch ./wiringPi/devLib/Makefile < ./patchs/devLib_Makefile.patch
 patch ./wiringPi/gpio/Makefile < ./patchs/gpio_Makefile.patch
 
 echo -n "Making libWiringPi ... "
-cd ./wiringpi/wiringPi/
+cd ./wiringPi/wiringPi/
 make clean >> ../../install.log 2>&1
 make static >> ../../install.log 2>&1
 check_make_ok "libWiringPi" 1
 cd ../../
 echo "done."
 
-cd ./wiringpi/devLib/
+cd ./wiringPi/devLib/
 echo -n "Making devLib ..."
 make clean >> ../../install.log 2>&1
 make static >> ../../install.log 2>&1
@@ -67,7 +67,7 @@ check_make_ok "devLib" 0
 cd ../../
 echo "done."
 
-cd ./wiringpi/gpio/
+cd ./wiringPi/gpio/
 echo -n "Unistalling gpio utility ... "
 sudo make uninstall >> ../../install.log 2>&1
 echo "done."
