@@ -48,12 +48,12 @@
         'src/devlib/tcs34725.cc'
       ],
       'include_dirs': [
-        'wiringpi/wiringPi',
-        'wiringpi/devLib'
+        'wiringPi/wiringPi',
+        'wiringPi/devLib'
       ],
       'libraries': [
-        '<!(pwd)/wiringpi/wiringPi/libwiringPi.a',
-        '<!(pwd)/wiringpi/devLib/libwiringPiDev.a'
+        '<!(pwd)/wiringPi/wiringPi/libwiringPi.a',
+        '<!(pwd)/wiringPi/devLib/libwiringPiDev.a'
       ],
       'cflags': [
         '-Wall'
