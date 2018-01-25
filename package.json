@@ -1,6 +1,6 @@
 {
-  "name": "wiring-pi",
-  "version": "2.2.1",
+  "name": "wiring-pi-updated",
+  "version": "2.2.2",
   "description": "Bindings to wiringPi",
   "main": "lib/exports.js",
   "scripts": {
@@ -8,9 +8,9 @@
     "install": "/bin/bash ./install.sh"
   },
   "repository": {
-    "type": "git",
-    "url": "git@github.com:WiringPi/WiringPi-Node.git"
+    "type": "git"
   },
+  "private": true,
   "keywords": [
     "wiringPi",
     "gpio",
